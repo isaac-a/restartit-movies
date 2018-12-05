@@ -1,0 +1,33 @@
+.Header {
+  text-align: center;
+  font-size: 3em;
+  color: #333;
+}
+
+.Searchbar {
+  outline: transparent;
+  font-size: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid #888;
+  width: 20%;
+  margin: 2em auto 0;
+  display: block;
+}
+
+.MovieList {
+  width: 40%;
+  margin: 3em auto 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 750px) {
+  .Searchbar {
+    width: 50%;
+  }
+
+  .MovieList {
+    width: 85%;
+  }
+}
